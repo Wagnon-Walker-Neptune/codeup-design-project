@@ -12,6 +12,7 @@ body{
     border-radius: 50%;
     text-align: center;
     margin: 0 8px;
+    margin-bottom: 7px;
 }
 p{
     font-family: Abel, sans-serif;
@@ -47,6 +48,12 @@ h2{
     font-family: Anton, sans-serif;
     color:white;
 }
+img{
+    width:248px;
+    border: 16px solid #E6E6E6;
+    border-radius: 8px;
+}
+/*XtraSmall Media*/
 @media (max-width: 576px) {
     h1{
         font-size: 32px;
@@ -54,7 +61,11 @@ h2{
     h2{
         font-size: 20px;
     }
+    #icongroup{
+        margin: 0 50px;
+    }
 }
+/*Small Media*/
 @media (min-width: 576px) {
     h1{
         font-size: 36px;
@@ -75,19 +86,34 @@ h2{
         border: 7px solid white;
         border-radius: 50%;
         text-align: center;
-        margin: 0 4px;
+        margin: 0 3px;
     }
-    #icongroup {
-        padding-bottom: 16px;
-        border-bottom: #c3c3c3 solid 2px;
+    hr {
+        width:60%;
+        border: none;
+        height: 2px;
+        padding:0;
+        background-color: #c3c3c3;
     }
+
 }
+/*Medium Media*/
 @media (min-width: 768px) {
     h1{
         font-size: 48px;
     }
     h2{
         font-size: 40px;
+    }
+
+    .blobs {
+        padding: 0;
+        width: 103px;
+        height: 103px;
+        border: 7px solid white;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0 12px;
     }
 }
 
