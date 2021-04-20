@@ -1,0 +1,17 @@
+* {
+    background: grey;
+}
+
+.blobs {
+    /*size: 100px;*/
+    padding: 0;
+    width: 110px;
+    height: 110px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background: hotpink;
+    text-align: center;
+}
+p {
+    background: none;
+}
