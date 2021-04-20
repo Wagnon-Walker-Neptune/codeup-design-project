@@ -1,13 +1,12 @@
-
 body{
     background: #f0f0f0;
 }
 
 .blobs {
-    /*size: 100px;*/
+    box-sizing: content-box;
     padding: 0;
-    width: 103px;
-    height: 103px;
+    width: 91px;
+    height: 91px;
     border: 7px solid white;
     border-radius: 50%;
     text-align: center;
@@ -49,8 +48,9 @@ h2{
     color:white;
 }
 img{
-    width:248px;
-    border: 16px solid #E6E6E6;
+    box-sizing: content-box;
+    width:214px;
+    border: 6px solid #E6E6E6;
     border-radius: 8px;
 }
 /*XtraSmall Media*/
@@ -63,6 +63,15 @@ img{
     }
     #icongroup{
         margin: 0 50px;
+    }
+    .blobs {
+
+    }
+    img{
+        box-sizing: content-box;
+        width:214px;
+        border: 6px solid #E6E6E6;
+        border-radius: 8px;
     }
 }
 /*Small Media*/
@@ -80,12 +89,6 @@ img{
         padding-left: 16px;
     }
     .blobs {
-        padding: 0;
-        width: 103px;
-        height: 103px;
-        border: 7px solid white;
-        border-radius: 50%;
-        text-align: center;
         margin: 0 3px;
     }
     hr {
@@ -107,12 +110,6 @@ img{
     }
 
     .blobs {
-        padding: 0;
-        width: 103px;
-        height: 103px;
-        border: 7px solid white;
-        border-radius: 50%;
-        text-align: center;
         margin: 0 12px;
     }
 }
