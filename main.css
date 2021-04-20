@@ -13,6 +13,13 @@ body{
     margin: 0 8px;
     margin-bottom: 7px;
 }
+.small-blobs{
+    box-sizing: content-box;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    border-radius:50%;
+}
 p{
     font-family: Abel, sans-serif;
     background: none;
@@ -52,6 +59,11 @@ img{
     width:214px;
     border: 6px solid #E6E6E6;
     border-radius: 8px;
+}
+#featured-ipad{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
 }
 /*XtraSmall Media*/
 @media (max-width: 576px) {
