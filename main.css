@@ -25,7 +25,7 @@ p{
     background: none;
 }
 h1, h2{
-    font-weight: bolder;
+    font-weight: bold;
     font-family: Anton, sans-serif;
 }
 h1{
@@ -57,17 +57,19 @@ h2{
 .anton{
     font-family: Anton, sans-serif;
     color:white;
+    font-size: 18px;
 }
-img{
+.big-img{
     box-sizing: content-box;
     width:214px;
     border: 6px solid #E6E6E6;
     border-radius: 8px;
 }
+
 #ipad-group, #macbook-group, #man-group, #security-group{
     box-sizing: content-box;
     padding: 0;
-    margin: 0;
+    margin: 16px;
 }
 /*XtraSmall Media*/
 @media (max-width: 576px) {
@@ -87,6 +89,9 @@ img{
     }
     #mega-row{
         justify-content: center;
+    }
+    .hide{
+        display: none;
     }
 
 }
@@ -120,6 +125,9 @@ img{
     #mega-row{
         justify-content: space-evenly;
     }
+    .hide{
+        display: none;
+    }
 
 }
 /*Medium Media*/
@@ -138,21 +146,33 @@ img{
         justify-content: space-evenly;
     }
     .small-img{
-        width: 75px;
-        height: 75px;
+        box-sizing: content-box;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #E6E6E6;
+        border-radius: 4px;
     }
     .small-text{
-        font-size: 16px;
+        font-size: 24px;
+        margin:0;
     }
-
+    .hide{
+        display: block;
+    }
 }
 
 @media (min-width: 768px) {
     #ipad-macbook-row, #man-security-row{
         justify-content: left;
     }
+    .hide{
+        display: block;
+    }
 }
 
 @media (min-width: 1200px) {
+    .hide{
+        display: none;
+    }
 
 }
