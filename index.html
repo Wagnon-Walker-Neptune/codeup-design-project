@@ -10,24 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
-<body class="px-0">
-<header class="mx-auto text-center">
-    <div class="white-bar d-flex flex-row align-items-center" id="logocss">
-        <div class="logo-container d-flex align-self-center">
-
+<body class="px-0 mx-auto">
+<div class="px-0 container-fluid" id="floatingbar">
+    <div class="white-bar" id=""></div>
+</div>
+<header class="px-0 mx-auto">
+    <div class="mx-auto white-bar d-flex flex-row align-items-center">
+        <div class="d-flex justify-content-start">
+            <p class="p-0 m-0 align-self-center" id="codeup">codeup design</p>
+            <img class="logo " src="images/logo.png" id="logocss">
         </div>
-        <div class="d-flex flex-row justify-content-end" id="navnavs">
-            <ul class="nav-item list-unstyled d-flex flex-row p-0 m-0 align-items-center" id="navlist">
-                <li><p class="p-0 m-0 align-self-center" id="codeup">codeup design</p></li>
-                <li>SERVICES</li>
-                <li>WORK</li>
-                <li id="logoimage"><img class="logo" src="images/logo.png" ></li>
-                <li>BLOG</li>
-                <li>CONTACT</li>
+        <div class="d-flex flex-row justify-content-end" id="navlist">
+            <ul class="list-unstyled d-flex flex-row p-0 m-0">
+                <li class="navlist">SERVICES</li>
+                <li class="navlist">WORK</li>
+                <li class="navlist">BLOG</li>
+                <li class="navlist">CONTACT</li>
             </ul>
         </div>
     </div>
+    <div class="d-xs-block d-sm-block d-md-none mt-4 text-center">
+        <p id="xsandsmcodeup">codeup design</p>
+
+    </div>
 </header>
+
+
+
+
 <main class="mx-auto">
     <h1 class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
     <h2 class="text-center">FROM PARK CITY, UTAH</h2>
@@ -51,7 +61,7 @@
     </div>
     <hr class="d-none d-sm-block">
     <div class="row mx-auto" id="mega-row">
-        <div class="col-sm-8" id="big-picture-col">
+        <div class="col-sm-8 px-0">
             <p class="text-center mt-5 text-md-left">SELECTED WORK</p>
         <!--    Ipad and Macbook rpw-->
             <div class="d-sm-flex flex-sm-row " id="ipad-macbook-row" >
@@ -112,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-4 d-none d-md-block">
+        <div class="col-4 d-none d-md-block px-0">
             <p class="mt-5 text-left mb-5">THE LAST</p>
             <div class="flex-row border border-primary last-group-items d-flex">
                 <img class=" small-img" src="images/mobile-phone.jpg">

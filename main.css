@@ -1,18 +1,21 @@
 body{
     background: #f0f0f0;
+    position: relative;
 }
 .white-bar {
     background: white;
     height: 65px;
     margin-top: 50px;
 }
+#floatingbar {
+    position: absolute;
+    top: -50px;
+    z-index: -1;
+}
 .logo {
     box-sizing: content-box;
     height: 105px;
     width: 105px;
-}
-#codeup {
-    font-size: 35px;
 }
 .blobs {
     box-sizing: content-box;
@@ -103,13 +106,16 @@ h2{
     }
     #navnavs {
         font-size: 10px;
-        width: 220px;
+        /*width: 220px;*/
     }
-    #navlist{
-        justify-content: center;
+    .navlist{
+        display: none;
     }
     #codeup {
-        margin: 20px 0;
+        display: none;
+    }
+    #xsandsmcodeup {
+        font-size: 20px;
     }
     h1{
         font-size: 32px;
@@ -138,14 +144,17 @@ h2{
         justify-content: center;
     }
     #codeup {
-        margin: 20px 0;
+        display: none;
+    }
+    #xsandsmcodeup {
+        font-size: 20px;
     }
     #navnavs {
         font-size: 10px;
-        width: 576px;
+        /*width: 576px;*/
     }
-    #navlist{
-        justify-content: space-around;
+    .navlist{
+        display: none;
     }
     h1{
         font-size: 36px;
@@ -179,23 +188,29 @@ h2{
 /*Medium Media*/
 @media (min-width: 768px) {
     #logocss {
-        justify-content: left;
+        /*justify-content: left;*/
     }
     #logoimage{
         order: -2;
     }
     .logo-container{
-        width: 768px;
+        /*width: 768px;*/
         /*align-self: start;*/
     }
+
     #navnavs{
         /*align-items: center;*/
     }
     #codeup{
         font-family: Abel, sans-serif;
+        display: initial;
+        font-size: 35px;
     }
-
-    #navlist{
+    hr {
+        width: 100%;
+    }
+    .navlist{
+        display: initial;
         justify-content: right;
     }
     ul >li{
@@ -213,8 +228,8 @@ h2{
     .blobs {
         margin: 0 12px;
     }
-    #ipad-macbook-row, #man-security-row{
-        justify-content: space-evenly;
+    #ipad-group, #man-group{
+        margin-left: 0;
     }
     .small-img{
         box-sizing: content-box;
