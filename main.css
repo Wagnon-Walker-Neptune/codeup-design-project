@@ -104,6 +104,9 @@ h2{
         font-size: 10px;
         width: 220px;
     }
+    #navlist{
+        justify-content: center;
+    }
     #codeup {
         margin: 20px 0;
     }
@@ -135,6 +138,17 @@ h2{
     }
     #codeup {
         margin: 20px 0;
+    }
+    #navnavs {
+        font-size: 10px;
+        width: 576px;
+        /*position: relative;*/
+        /*top:-130px;*/
+        /*left:0;*/
+        /*margin: 0 auto;*/
+    }
+    #navlist{
+        justify-content: space-around;
     }
     h1{
         font-size: 36px;
@@ -169,6 +183,32 @@ h2{
 @media (min-width: 768px) {
     #logocss {
         justify-content: left;
+    }
+    #logoimage{
+        position: relative;
+    }
+    .logo-container{
+        width: 768px;
+        /*align-self: start;*/
+    }
+    #navnavs{
+        align-items: center;
+    }
+    #codeup{
+
+        font-family: Abel, sans-serif;
+        /*top:-80px;*/
+        /*left: -175px;*/
+    }
+
+    #navlist{
+        justify-content: right;
+    }
+    ul >li{
+        padding-left: 10px;
+        padding-top: 15px;
+        font-size: 16px;
+        font-family: Abel, sans-serif;
     }
     h1{
         font-size: 48px;
