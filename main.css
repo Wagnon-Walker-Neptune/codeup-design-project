@@ -1,7 +1,19 @@
 body{
     background: #f0f0f0;
 }
-
+.white-bar {
+    background: white;
+    height: 65px;
+    margin-top: 50px;
+}
+.logo {
+    box-sizing: content-box;
+    height: 105px;
+    width: 105px;
+}
+#codeup {
+    font-size: 35px;
+}
 .blobs {
     box-sizing: content-box;
     padding: 0;
@@ -85,6 +97,16 @@ h2{
 
 /*XtraSmall Media*/
 @media (max-width: 576px) {
+    #logocss {
+        justify-content: center;
+    }
+    #navnavs {
+        font-size: 10px;
+        width: 220px;
+    }
+    #codeup {
+        margin: 20px 0;
+    }
     h1{
         font-size: 32px;
     }
@@ -108,6 +130,12 @@ h2{
 }
 /*Small Media*/
 @media (min-width: 576px) {
+    #logocss {
+        justify-content: center;
+    }
+    #codeup {
+        margin: 20px 0;
+    }
     h1{
         font-size: 36px;
     }
@@ -139,6 +167,9 @@ h2{
 }
 /*Medium Media*/
 @media (min-width: 768px) {
+    #logocss {
+        justify-content: left;
+    }
     h1{
         font-size: 48px;
     }
@@ -175,9 +206,6 @@ h2{
 }
 
 @media (min-width: 992px) {
-    #ipad-macbook-row, #man-security-row{
-        justify-content: left;
-    }
     main{
         width: 768px;
     }
