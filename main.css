@@ -37,15 +37,19 @@ h2{
 }
 .red {
     background: #E6563B;
+    margin-right:2px;
 }
 .orange {
     background: #EB9D3A;
+    margin-right:2px;
 }
 .green {
     background: #7CB06C;
+    margin-right:2px;
 }
 .aqua {
     background: #00ABA9;
+    margin-right:2px;
 }
 .border-color {
     border: #E6E6E6;
@@ -60,7 +64,7 @@ img{
     border: 6px solid #E6E6E6;
     border-radius: 8px;
 }
-#featured-ipad{
+#ipad-group, #macbook-group, #man-group, #security-group{
     box-sizing: content-box;
     padding: 0;
     margin: 0;
@@ -77,14 +81,14 @@ img{
         margin: 0 50px;
     }
     .blobs {
+    }
+    #ipad-macbook-row, #man-security-row{
+        justify-content: center;
+    }
+    #mega-row{
+        justify-content: center;
+    }
 
-    }
-    img{
-        box-sizing: content-box;
-        width:40vw;
-        border: 6px solid #E6E6E6;
-        border-radius: 8px;
-    }
 }
 /*Small Media*/
 @media (min-width: 576px) {
@@ -110,6 +114,12 @@ img{
         padding:0;
         background-color: #c3c3c3;
     }
+    #ipad-macbook-row, #man-security-row{
+        justify-content: space-evenly;
+    }
+    #mega-row{
+        justify-content: space-evenly;
+    }
 
 }
 /*Medium Media*/
@@ -124,10 +134,23 @@ img{
     .blobs {
         margin: 0 12px;
     }
+    #ipad-macbook-row, #man-security-row{
+        justify-content: space-evenly;
+    }
+    .small-img{
+        width: 75px;
+        height: 75px;
+    }
+    .small-text{
+        font-size: 16px;
+    }
+
 }
 
 @media (min-width: 768px) {
-
+    #ipad-macbook-row, #man-security-row{
+        justify-content: left;
+    }
 }
 
 @media (min-width: 1200px) {
