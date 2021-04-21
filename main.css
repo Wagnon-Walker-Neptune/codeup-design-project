@@ -23,6 +23,7 @@ body{
 p{
     font-family: Abel, sans-serif;
     background: none;
+    font-size: 14px;
 }
 h1, h2{
     font-weight: bold;
@@ -71,6 +72,11 @@ h2{
     padding: 0;
     margin: 16px;
 }
+.last-group-items {
+    box-sizing: content-box;
+    height: 54px;
+}
+
 /*XtraSmall Media*/
 @media (max-width: 576px) {
     h1{
@@ -90,10 +96,6 @@ h2{
     #mega-row{
         justify-content: center;
     }
-    .hide{
-        display: none;
-    }
-
 }
 /*Small Media*/
 @media (min-width: 576px) {
@@ -125,10 +127,6 @@ h2{
     #mega-row{
         justify-content: space-evenly;
     }
-    .hide{
-        display: none;
-    }
-
 }
 /*Medium Media*/
 @media (min-width: 768px) {
@@ -151,28 +149,20 @@ h2{
         height: 50px;
         border: 2px solid #E6E6E6;
         border-radius: 4px;
+        padding: 0;
     }
     .small-text{
         font-size: 24px;
         margin:0;
     }
-    .hide{
-        display: block;
-    }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     #ipad-macbook-row, #man-security-row{
         justify-content: left;
-    }
-    .hide{
-        display: block;
     }
 }
 
 @media (min-width: 1200px) {
-    .hide{
-        display: none;
-    }
 
 }
