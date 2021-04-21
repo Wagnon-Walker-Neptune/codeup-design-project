@@ -31,6 +31,12 @@ body{
     width: 18px;
     height: 18px;
     border-radius:50%;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Anton, sans-serif;
+    font-size: 10px;
 }
 p{
     font-family: Abel, sans-serif;
@@ -43,26 +49,21 @@ h1, h2{
 }
 h1{
     margin-top: 1em;
-
 }
 h2{
     margin: 1em 0;
 }
 .red {
     background: #E6563B;
-    margin-right:2px;
 }
 .orange {
     background: #EB9D3A;
-    margin-right:2px;
 }
 .green {
     background: #7CB06C;
-    margin-right:2px;
 }
 .aqua {
     background: #00ABA9;
-    margin-right:2px;
 }
 .border-color {
     border: #E6E6E6;
@@ -142,10 +143,6 @@ h2{
     #navnavs {
         font-size: 10px;
         width: 576px;
-        /*position: relative;*/
-        /*top:-130px;*/
-        /*left:0;*/
-        /*margin: 0 auto;*/
     }
     #navlist{
         justify-content: space-around;
@@ -185,28 +182,24 @@ h2{
         justify-content: left;
     }
     #logoimage{
-        position: relative;
+        order: -2;
     }
     .logo-container{
         width: 768px;
         /*align-self: start;*/
     }
     #navnavs{
-        align-items: center;
+        /*align-items: center;*/
     }
     #codeup{
-
         font-family: Abel, sans-serif;
-        /*top:-80px;*/
-        /*left: -175px;*/
     }
 
     #navlist{
         justify-content: right;
     }
     ul >li{
-        padding-left: 10px;
-        padding-top: 15px;
+        margin-left: 10px;
         font-size: 16px;
         font-family: Abel, sans-serif;
     }
@@ -240,7 +233,7 @@ h2{
     #mega-row{
         justify-content: space-evenly;
     }
-    main{
+    main, header{
         width: 768px;
     }
 }
