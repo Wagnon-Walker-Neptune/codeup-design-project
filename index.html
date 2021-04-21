@@ -12,8 +12,8 @@
 
 
 </head>
-<body class="container-lg text-center">
-<main >
+<body class="container-fluid text-center">
+<main class="mx-auto">
     <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
     <h2>FROM PARK CITY, UTAH</h2>
 <!--    <div class="row text-center">-->
@@ -57,11 +57,11 @@
         </div>
     </div>
     <hr class="d-none d-sm-block">
-    <div class="row d-flex" id="mega-row">
+    <div class="row mx-auto" id="mega-row">
         <div class="col-8" id="big-picture-col">
             <p class="text-center mt-5 text-md-left">SELECTED WORK</p>
         <!--    Ipad and Macbook rpw-->
-            <div class="row" id="ipad-macbook-row" >
+            <div class="d-sm-flex flex-sm-row " id="ipad-macbook-row" >
         <!--        Ipad Group-->
                 <div class="list-group border border-primary row" id="ipad-group">
                     <img class="list-item big-img" src="images/apple-ipad.jpg" alt="A picture of an Apple Ipad">
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <!--    Man and Security rpw-->
-            <div class="row" id="man-security-row" >
+            <div class="d-sm-flex flex-sm-row" id="man-security-row" >
                 <!--        Ipad Group-->
                 <div class="list-group border border-primary row" id="man-group">
                     <img class="list-item big-img" src="images/man.jpg" alt="A picture of a man">
@@ -120,11 +120,21 @@
             </div>
         </div>
         <div class="col-4 d-none d-md-block">
-            <p class="mt-5 text-left">THE LAST</p>
-            <div class="row border border-primary last-group-items">
-                <img class="small-img" src="images/mobile-phone.jpg">
-                <h2 class="small-text">THE ADMIN BAR AND ABSOLUTE POSITIONING</h2>
+            <p class="mt-5 text-left mb-5">THE LAST</p>
+            <div class="flex-row border border-primary last-group-items d-flex">
+                <img class=" small-img" src="images/mobile-phone.jpg">
+                <h2 class=" small-text text-left">THE ADMIN BAR AND ABSOLUTE POSITIONING</h2>
             </div>
+            <div class="flex-row border border-primary last-group-items d-flex">
+                <img class=" small-img" src="images/head.jpg">
+                <h2 class=" small-text text-left">NIBBLER AWESOME WEBSITE TESTING</h2>
+            </div>
+            <div class="flex-row border border-primary last-group-items d-flex">
+                <img class=" small-img" src="images/ipad.jpg">
+                <h2 class=" small-text text-left">HOW TO GET GOOGLE TO LIKE YOU</h2>
+            </div>
+            <p class="mt-5 text-left"><i class="fab fa-twitter fa-2x twitter"></i> LAST TWEET</p>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur dolor earum error eum explicabo ipsum molestias nisi nobis odio odit, optio perferendis possimus quaerat repellendus soluta tenetur totam veniam!</span></p>
         </div>
     </div>
 </main>

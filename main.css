@@ -71,10 +71,16 @@ h2{
     box-sizing: content-box;
     padding: 0;
     margin: 16px;
+    width:226px;
 }
 .last-group-items {
     box-sizing: content-box;
     height: 54px;
+    margin-bottom: 16px;
+    width:250px;
+}
+.twitter{
+    color:#1da1f2;
 }
 
 /*XtraSmall Media*/
@@ -95,6 +101,9 @@ h2{
     }
     #mega-row{
         justify-content: center;
+    }
+    #ipad-group, #macbook-group, #man-group, #security-group{
+        margin: 16px auto;
     }
 }
 /*Small Media*/
@@ -150,10 +159,18 @@ h2{
         border: 2px solid #E6E6E6;
         border-radius: 4px;
         padding: 0;
+        margin-right: 8px;
     }
     .small-text{
-        font-size: 24px;
+        font-size: 20px;
         margin:0;
+        text-align: center;
+    }
+    #mega-row{
+        justify-content: space-evenly;
+    }
+    main{
+        width: 768px;
     }
 }
 
@@ -161,8 +178,13 @@ h2{
     #ipad-macbook-row, #man-security-row{
         justify-content: left;
     }
+    main{
+        width: 768px;
+    }
 }
 
 @media (min-width: 1200px) {
-
+    main{
+        width: 768px;
+    }
 }
