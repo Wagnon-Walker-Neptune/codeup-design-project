@@ -101,14 +101,17 @@ h2{
 
 /*XtraSmall Media*/
 @media (max-width: 576px) {
-    #logocss {
-        justify-content: center;
+    #nav-margin{
+        margin-left: auto;
+        margin-right: auto;
     }
-    #navnavs {
-        font-size: 10px;
-        /*width: 220px;*/
+    .xs-nav{
+        display: initial;
     }
-    .navlist{
+    .small-nav {
+        display: none;
+    }
+    .large-nav{
         display: none;
     }
     #codeup {
@@ -140,20 +143,23 @@ h2{
 }
 /*Small Media*/
 @media (min-width: 576px) {
-    #logocss {
-        justify-content: center;
+    #nav-margin{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .xs-nav{
+        display: none;
+    }
+    .small-nav{
+        display: initial;
     }
     #codeup {
         display: none;
     }
     #xsandsmcodeup {
-        font-size: 20px;
+        font-size: 25px;
     }
-    #navnavs {
-        font-size: 10px;
-        /*width: 576px;*/
-    }
-    .navlist{
+    .large-nav{
         display: none;
     }
     h1{
@@ -187,19 +193,15 @@ h2{
 }
 /*Medium Media*/
 @media (min-width: 768px) {
-    #logocss {
-        /*justify-content: left;*/
+    #nav-margin{
+        margin-left: 0;
+        margin-right: auto;
     }
-    #logoimage{
-        order: -2;
+    .xs-nav{
+        display: none;
     }
-    .logo-container{
-        /*width: 768px;*/
-        /*align-self: start;*/
-    }
-
-    #navnavs{
-        /*align-items: center;*/
+    .small-nav{
+        display: none;
     }
     #codeup{
         font-family: Abel, sans-serif;
@@ -209,7 +211,7 @@ h2{
     hr {
         width: 100%;
     }
-    .navlist{
+    .large-nav{
         display: initial;
         justify-content: right;
     }
@@ -249,18 +251,44 @@ h2{
         justify-content: space-evenly;
     }
     main, header{
-        width: 768px;
+        width: 750px;
     }
 }
 
 @media (min-width: 992px) {
+    #nav-margin{
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .xs-nav{
+        display: none;
+    }
+    .small-nav{
+        display: none;
+    }
     main{
-        width: 768px;
+        width: 750px;
+    }
+    hr {
+        width: 100%;
     }
 }
 
 @media (min-width: 1200px) {
+    #nav-margin{
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .xs-nav{
+        display: none;
+    }
+    .small-nav{
+        display: none;
+    }
     main{
-        width: 768px;
+        width: 750px;
+    }
+    hr {
+        width: 100%;
     }
 }
