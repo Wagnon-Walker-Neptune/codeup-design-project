@@ -103,8 +103,13 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
+    #xs-nav-bar {
+        width: 190px;
+        margin: auto;
+    }
     .xs-nav {
         display: initial;
+        font-size: 12px;
     }
     .small-nav {
         display: none;
@@ -116,7 +121,7 @@ h2 {
         display: none;
     }
     #xsandsmcodeup {
-        font-size: 20px;
+        font-size: 32px;
     }
     h1 {
         font-size: 32px;
@@ -158,7 +163,7 @@ h2 {
         display: none;
     }
     #xsandsmcodeup {
-        font-size: 25px;
+        font-size: 32px;
     }
     .large-nav {
         display: none;
