@@ -140,6 +140,9 @@ h2{
     #ipad-group, #macbook-group, #man-group, #security-group{
         margin: 16px auto;
     }
+    #macbook-group, #man-group, #security-group{
+        display: none;
+    }
 }
 /*Small Media*/
 @media (min-width: 576px) {
@@ -187,8 +190,11 @@ h2{
     #ipad-macbook-row, #man-security-row{
         justify-content: space-evenly;
     }
-    #mega-row{
+    #mega-row {
         justify-content: space-evenly;
+    }
+    #macbook-group, #man-group, #security-group{
+           display: initial;
     }
 }
 /*Medium Media*/
@@ -253,6 +259,9 @@ h2{
     main, header{
         width: 750px;
     }
+    #macbook-group, #man-group, #security-group{
+        display: initial;
+    }
 }
 
 @media (min-width: 992px) {
@@ -272,6 +281,10 @@ h2{
     hr {
         width: 100%;
     }
+    #macbook-group, #man-group, #security-group{
+        display: initial;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -290,5 +303,8 @@ h2{
     }
     hr {
         width: 100%;
+    }
+    #macbook-group, #man-group, #security-group{
+        display: initial;
     }
 }
