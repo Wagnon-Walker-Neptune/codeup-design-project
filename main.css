@@ -1,4 +1,4 @@
-body{
+body {
     background: #f0f0f0;
     position: relative;
 }
@@ -28,7 +28,7 @@ body{
     margin: 0 8px;
     margin-bottom: 7px;
 }
-.small-blobs{
+.small-blobs {
     box-sizing: content-box;
     padding: 0;
     width: 18px;
@@ -41,19 +41,19 @@ body{
     font-family: Anton, sans-serif;
     font-size: 10px;
 }
-p{
+p {
     font-family: Abel, sans-serif;
     background: none;
     font-size: 14px;
 }
-h1, h2{
+h1, h2 {
     font-weight: bold;
     font-family: Anton, sans-serif;
 }
-h1{
+h1 {
     margin-top: 1em;
 }
-h2{
+h2 {
     margin: 1em 0;
 }
 .red {
@@ -71,18 +71,17 @@ h2{
 .border-color {
     border: #E6E6E6;
 }
-.anton{
+.anton {
     font-family: Anton, sans-serif;
     color:white;
     font-size: 18px;
 }
-.big-img{
+.big-img {
     box-sizing: content-box;
     width:214px;
     border: 6px solid #E6E6E6;
     border-radius: 8px;
 }
-
 #ipad-group, #macbook-group, #man-group, #security-group{
     box-sizing: content-box;
     padding: 0;
@@ -95,23 +94,22 @@ h2{
     margin-bottom: 16px;
     width:250px;
 }
-.twitter{
+.twitter {
     color:#1da1f2;
 }
-
 /*XtraSmall Media*/
 @media (max-width: 576px) {
-    #nav-margin{
+    #nav-margin {
         margin-left: auto;
         margin-right: auto;
     }
-    .xs-nav{
+    .xs-nav {
         display: initial;
     }
     .small-nav {
         display: none;
     }
-    .large-nav{
+    .large-nav {
         display: none;
     }
     #codeup {
@@ -120,13 +118,13 @@ h2{
     #xsandsmcodeup {
         font-size: 20px;
     }
-    h1{
+    h1 {
         font-size: 32px;
     }
-    h2{
+    h2 {
         font-size: 20px;
     }
-    #icongroup{
+    #icongroup {
         margin: 0 50px;
     }
     .blobs {
@@ -134,26 +132,26 @@ h2{
     #ipad-macbook-row, #man-security-row{
         justify-content: center;
     }
-    #mega-row{
+    #mega-row {
         justify-content: center;
     }
-    #ipad-group, #macbook-group, #man-group, #security-group{
+    #ipad-group, #macbook-group, #man-group, #security-group {
         margin: 16px auto;
     }
-    #macbook-group, #man-group, #security-group{
+    #macbook-group, #man-group, #security-group {
         display: none;
     }
 }
 /*Small Media*/
 @media (min-width: 576px) {
-    #nav-margin{
+    #nav-margin {
         margin-left: auto;
         margin-right: auto;
     }
-    .xs-nav{
+    .xs-nav {
         display: none;
     }
-    .small-nav{
+    .small-nav {
         display: initial;
     }
     #codeup {
@@ -162,19 +160,19 @@ h2{
     #xsandsmcodeup {
         font-size: 25px;
     }
-    .large-nav{
+    .large-nav {
         display: none;
     }
-    h1{
+    h1 {
         font-size: 36px;
     }
-    h2{
+    h2 {
         font-size: 24px;
     }
-    #red-yellow{
+    #red-yellow {
         padding-right:16px;
     }
-    #green-aqua{
+    #green-aqua {
         padding-left: 16px;
     }
     .blobs {
@@ -187,59 +185,59 @@ h2{
         padding:0;
         background-color: #c3c3c3;
     }
-    #ipad-macbook-row, #man-security-row{
+    #ipad-macbook-row, #man-security-row {
         justify-content: space-evenly;
     }
     #mega-row {
         justify-content: space-evenly;
     }
-    #macbook-group, #man-group, #security-group{
+    #macbook-group, #man-group, #security-group {
            display: initial;
     }
 }
 /*Medium Media*/
 @media (min-width: 768px) {
-    #nav-margin{
+    #nav-margin {
         margin-left: 0;
         margin-right: auto;
     }
-    .xs-nav{
+    .xs-nav {
         display: none;
     }
-    .small-nav{
+    .small-nav {
         display: none;
     }
-    #codeup{
+    #codeup {
         font-family: Abel, sans-serif;
         display: initial;
         font-size: 35px;
     }
     hr {
+        margin-top: 28px;
         width: 100%;
     }
-    .large-nav{
+    .large-nav {
         display: initial;
         justify-content: right;
     }
-    ul >li{
+    ul >li {
         margin-left: 10px;
         font-size: 16px;
         font-family: Abel, sans-serif;
     }
-    h1{
+    h1 {
         font-size: 48px;
     }
-    h2{
+    h2 {
         font-size: 40px;
     }
-
     .blobs {
         margin: 0 12px;
     }
-    #ipad-group, #man-group{
+    #ipad-group, #man-group {
         margin-left: 0;
     }
-    .small-img{
+    .small-img {
         box-sizing: content-box;
         width: 50px;
         height: 50px;
@@ -248,63 +246,46 @@ h2{
         padding: 0;
         margin-right: 8px;
     }
-    .small-text{
+    .small-text {
         font-size: 20px;
         margin:0;
         text-align: center;
     }
-    #mega-row{
+    #mega-row {
         justify-content: space-evenly;
     }
-    main, header{
+    main, header {
         width: 750px;
     }
-    #macbook-group, #man-group, #security-group{
+    #macbook-group, #man-group, #security-group {
         display: initial;
     }
 }
-
 @media (min-width: 992px) {
-    #nav-margin{
-        margin-left: 0;
-        margin-right: auto;
-    }
-    .xs-nav{
+    .xs-nav {
         display: none;
     }
-    .small-nav{
+    .small-nav {
         display: none;
     }
-    main{
+    main {
         width: 750px;
     }
     hr {
         width: 100%;
     }
-    #macbook-group, #man-group, #security-group{
+    #macbook-group, #man-group, #security-group {
         display: initial;
     }
-
 }
-
 @media (min-width: 1200px) {
-    #nav-margin{
-        margin-left: 0;
-        margin-right: auto;
-    }
-    .xs-nav{
+    .xs-nav {
         display: none;
     }
-    .small-nav{
+    .small-nav {
         display: none;
     }
-    main{
-        width: 750px;
-    }
-    hr {
-        width: 100%;
-    }
-    #macbook-group, #man-group, #security-group{
+    #macbook-group, #man-group, #security-group {
         display: initial;
     }
 }
